@@ -1,0 +1,22 @@
+{
+  "name": "genpark-evidence-backed-product-comparison-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Compare candidate products using constraints, evidence records, and transparent scoring.",
+  "author": "GenPark",
+  "category": "agent-tools",
+  "tags": [
+    "evidence",
+    "backed",
+    "product",
+    "comparison"
+  ],
+  "inputs": {
+    "records": "list",
+    "query": "string"
+  },
+  "outputs": {
+    "result": "object"
+  },
+  "entrypoint": "client.py",
+  "example": "python example_usage.py"
+}
